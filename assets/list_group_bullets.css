@@ -1,0 +1,7 @@
+.list-group-item.custom-list-item::before {
+  content: "•"; /* Unicode character for bullet */
+  color: #cccccc;
+  display: inline-block;
+  width: 1em; /* Adjust as needed for spacing */
+  margin-left: -1em; /* Adjust to align bullets */
+}

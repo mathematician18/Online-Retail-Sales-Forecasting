@@ -1,0 +1,15 @@
+pandas
+numpy
+dash
+plotly
+pyspark
+google-cloud-bigquery
+google-cloud-storage
+google-auth
+google-auth-oauthlib
+google-cloud-core
+google-auth-httplib2
+dash-bootstrap-components
+scikit-learn
+pyspark google-cloud-bigquery
+dash-bootstrap-components

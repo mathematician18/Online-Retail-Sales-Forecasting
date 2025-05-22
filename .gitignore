@@ -1,0 +1,37 @@
+# Entornos virtuales
+venv/
+*.venv
+env/
+ENV/
+myenv/
+mi_entorno_data/ # Si creaste un entorno con este nombre
+.env
+
+# Archivos de credenciales y configuración sensible
+*.json # Esto ignorará TODOS los .json, sé más específico si necesitas otros .json
+online-retail-warehouse-fd2f24b35fc6.json # O el nombre exacto de tu key
+config.py # Si tienes configuraciones sensibles aquí
+.secrets/
+secrets/
+
+# Archivos de Python compilados y caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.idea/
+.vscode/
+*.swp
+
+# Archivos de registros (logs)
+*.log
+
+# Archivos de dependencias de Spark (si se descargan localmente y no son parte del código fuente)
+jars/
