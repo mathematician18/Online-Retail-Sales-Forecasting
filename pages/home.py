@@ -174,8 +174,8 @@ layout = dbc.Container([
                     style={'fontFamily': 'Arial', 'fontSize': '0.8rem', 'color': '#cccccc', 'marginLeft': '1.2em'}  # Indent
                 ),
                 html.A(
-                    "GitHub (Coming Soon)",
-                    href="YOUR_GITHUB_REPO_LINK_HERE",  # Replace with your actual GitHub link
+                    "GitHub",
+                    href="https://github.com/mathematician18/Online-Retail-Sales-Forecasting",
                     target="_blank",
                     style={'fontFamily': 'Arial', 'fontSize': '0.8rem', 'color': 'white', 'marginLeft': '1.2em'}
                 ),
