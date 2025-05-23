@@ -196,12 +196,12 @@ layout = dbc.Container([
                 html.P("Feel free to reach out!", style={'fontFamily': 'Arial', 'fontSize': '0.8rem', 'color': '#cccccc', 'marginLeft': '65%', 'textAlign': 'left'}),
                 html.Div([
                     html.P("Gabriela Inzunza Gómez", style={'fontFamily': 'Arial', 'fontSize': '0.7rem', 'color': 'white', 'lineHeight': '0.5'}),
-                    html.P(html.A("LinkedIn", href="www.linkedin.com/in/gabriela-inzunza-gómez-320b8a13", target="_blank", style={'fontFamily': 'Arial', 'fontSize': '0.7rem', 'color': 'white', 'lineHeight': '0.5'})),
+                    html.P(html.A("LinkedIn", href="www.linkedin.com/in/gabriela-inzunza-gomez", target="_blank", style={'fontFamily': 'Arial', 'fontSize': '0.7rem', 'color': 'white', 'lineHeight': '0.5'})),
                     html.P("g.inzunza.g@seintegra.pro", style={'fontFamily': 'Arial', 'fontSize': '0.7rem', 'color': 'white', 'lineHeight': '0.5'})
                 ], style={'marginLeft': '65%', 'textAlign': 'left'}) # Push to the right
             ], className="mt-3")
 
-        ], width=10, md=8, lg=8, style={'margin': '0 auto'})  #cierra dbc.col linea 29
+        ], width=10, md=8, lg=8, style={'margin': '0 auto'})
     ]), #cierra dbc.row linea 30
-], fluid=True, style={'backgroundColor': 'black', 'padding': '15px', 'borderRadius': '10px'}) #cierra layout
+], fluid=True, style={'backgroundColor': 'black', 'padding': '15px', 'borderRadius': '10px'}) 
 
